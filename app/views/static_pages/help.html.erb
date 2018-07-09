@@ -1,0 +1,15 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%=
+    t(".help_info",
+      link: link_to(t(".section"), "http://www.railstutorial.org/help")
+    ).html_safe
+  %>
+  <br/>
+  <%=
+    t(".sample_help",
+      link: link_to(t("title"), "http://www.railstutorial.org/book")
+    ).html_safe
+  %>
+</p>

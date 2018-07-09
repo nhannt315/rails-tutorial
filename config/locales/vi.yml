@@ -1,0 +1,17 @@
+vi:
+  title: "Hướng dẫn Ruby on Rails"
+  app_name: "App ví dụ"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      info: "Đây là trang chủ của 1 app ví dụ cho %{link}"
+    help:
+      title: "Trợ giúp"
+      help_info: "Liên hệ theo vào %{link} để được trợ giúp về Ruby on Rails"
+      section: "Khu vực trợ giúp"
+      sample_help: "Để được trợ giúp về app mấu này, liên hệ đến %{link} !"
+    contact:
+      title: "Liên hệ"
+      info: "Liên hệ với chúng tôi tại đây %{link}"
+    about:
+      title: "Về chúng tôi"

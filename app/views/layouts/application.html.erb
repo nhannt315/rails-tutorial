@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HelloApp</title>
+    <title><%= yield(:title) %> | <%= t("title") %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,5 +11,7 @@
 
   <body>
     <%= yield %>
+    <%= link_to "English", locale: "en" %>
+    <%= link_to "Tiếng Việt", locale: "vi" %>
   </body>
 </html>

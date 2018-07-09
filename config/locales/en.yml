@@ -1,2 +1,17 @@
 en:
-  hello: "Hello world"
+  title: "Ruby on Rails Tutorial"
+  app_name: "Sample App"
+  static_pages:
+    home:
+      title: "Home"
+      info: "This is the home page for the %{link} sample application."
+    help:
+      title: "Help"
+      help_info: "Get help on the Ruby on Rails Tutorial at the %{link}"
+      section: "Rails Tutorial help section"
+      sample_help: "To get help on this sample app, see the %{link}"
+    contact:
+      title: "Contact"
+      info: "Contact the Ruby on Rails Tutorial about the sample app at the %{link}"
+    about:
+      title: "About"
