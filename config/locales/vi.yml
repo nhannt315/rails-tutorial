@@ -51,6 +51,10 @@ vi:
     confirm_password: "Xác nhận lại mật khẩu"
     profile_updated: "Hồ sơ đã được cập nhật"
     all: "Tất cả người dùng"
+    following: "Following"
+    follower: "Follower"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
   activate_mail:
     title: "Kích hoạt tài khoản"
     activate: "Kích hoạt"
