@@ -35,6 +35,7 @@ en:
     users: "Users"
     title: "Profile"
     logout: "Log out"
+    view: "View my profile"
   setting:
     title: "Settings"
   users:
@@ -74,3 +75,12 @@ en:
     click_link: "To reset your password click the link below:"
     link_expire: "This link will expire in two hours."
     info: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  micropost:
+    title: "Microposts"
+    post_time: "Posted %{time} ago"
+    created: "Micropost created!"
+    new: "Compose new micropost..."
+    post: "Post"
+    feed: "Micropost Feed"
+    picture_size_error: "should be less than 5MB"
+    error: "Maximum file size is 5MB. Please choose a smaller file."

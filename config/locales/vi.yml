@@ -35,6 +35,7 @@ vi:
     users: "Người dùng"
     title: "Hồ sơ cá nhân"
     logout: "Đăng xuất"
+    view: "Xem hồ sơ của tôi"
   setting:
     title: "Tùy chỉnh"
   users:
@@ -74,3 +75,12 @@ vi:
     click_link: "Để thiết lập lại mật khẩu của bạn hãy truy cập vào link dưới đây:"
     link_expire: "Đường link sẽ hết hạn sau 2 tiếng"
     info: "Nếu bạn không yêu cầu thiết lập lại mật khẩu thì vui lòng hãy bỏ qua thư này!"
+  micropost:
+    title: "Bài đăng"
+    post_time: "Được đăng %{time} trước"
+    created: "Bài viết đã được tạo!"
+    new: "Tạo bài đăng mới.."
+    post: "Đăng"
+    feed: "Bảng tin"
+    picture_size_error: "nên bé hơn 5MB"
+    error: "Dung lượng file tối đa cho phép là 5MB. Hãy chọn file nhỏ hơn"
