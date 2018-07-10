@@ -21,6 +21,7 @@ en:
     new_user: "New user?"
     sign_up_now: "Sign up now!"
     error: "Invalid email/password combination!"
+    remember: "Remember me on this computer"
   sign_up:
     title: "Sign up"
     info: "Sign up a new user"
