@@ -1,6 +1,7 @@
 vi:
   title: "Hướng dẫn Ruby on Rails"
   app_name: "App ví dụ"
+  greeting: "Chào mừng bạn đến với app ví dụ"
   static_pages:
     home:
       title: "Trang chủ"
@@ -20,3 +21,7 @@ vi:
   sign_up:
     title: "Đăng ký"
     info: "Đăng ký người dùng mới"
+    create: "Tạo tài khoản của tôi"
+    confirmation: "Xác nhận lại"
+  error: "lỗi"
+  form_error: "Form này có "

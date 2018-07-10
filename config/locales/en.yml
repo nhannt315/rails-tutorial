@@ -1,6 +1,7 @@
 en:
   title: "Ruby on Rails Tutorial"
   app_name: "Sample App"
+  greeting: "Welcome to Sample App"
   static_pages:
     home:
       title: "Home"
@@ -20,4 +21,8 @@ en:
   sign_up:
     title: "Sign up"
     info: "Sign up a new user"
+    create: "Create my account"
+    confirmation: "Confirmation"
+  error: "Error"
+  form_error: "The form contains "
 
