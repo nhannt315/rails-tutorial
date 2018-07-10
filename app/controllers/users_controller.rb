@@ -9,7 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    redirect_to root_url if @user.nil?
+    redirect_to root_url if @user.present? || !@user.activated?
   end
 
   def new
@@ -19,8 +19,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = I18n.t("greeting")
-      redirect_to @user
+      @user.send_activation_mail
+      flash[:success] = I18n.t("activate_mail.noti")
+      redirect_to root_url
     else
       render :new
     end
