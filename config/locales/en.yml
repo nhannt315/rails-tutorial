@@ -22,6 +22,7 @@ en:
     sign_up_now: "Sign up now!"
     error: "Invalid email/password combination!"
     remember: "Remember me on this computer"
+    require: "Please log in"
   sign_up:
     title: "Sign up"
     info: "Sign up a new user"
@@ -36,4 +37,16 @@ en:
     logout: "Log out"
   setting:
     title: "Settings"
-
+  users:
+    edit: "Edit user"
+    delete: "Delete"
+    delete_confirm: "You sure ?"
+    info: "Edit your profile"
+    save_change: "Save changes"
+    change: "Change"
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    confirm_password: "Password confirmation"
+    profile_updated: "Profile updated"
+    all: "All users"
