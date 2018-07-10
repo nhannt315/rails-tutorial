@@ -14,4 +14,10 @@ en:
       title: "Contact"
       info: "Contact the Ruby on Rails Tutorial about the sample app at the %{link}"
     about:
-      title: "About"
+      title: "About"  
+  log_in:
+    title: "Log in"
+  sign_up:
+    title: "Sign up"
+    info: "Sign up a new user"
+
