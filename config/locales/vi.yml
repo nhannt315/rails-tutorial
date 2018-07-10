@@ -18,6 +18,9 @@ vi:
       title: "Về chúng tôi"
   log_in:
     title: "Đăng nhập"
+    new_user: "Người dùng mới?"
+    sign_up_now: "Đăng ký ngay bây giờ!"
+    error: "Sai email hoặc mật khẩu!"
   sign_up:
     title: "Đăng ký"
     info: "Đăng ký người dùng mới"
@@ -25,3 +28,10 @@ vi:
     confirmation: "Xác nhận lại"
   error: "lỗi"
   form_error: "Form này có "
+  profile: 
+    account: "Tài khoản"
+    users: "Người dùng"
+    title: "Hồ sơ cá nhân"
+    logout: "Đăng xuất"
+  setting:
+    title: "Tùy chỉnh"
