@@ -15,3 +15,8 @@ vi:
       info: "Liên hệ với chúng tôi tại đây %{link}"
     about:
       title: "Về chúng tôi"
+  log_in:
+    title: "Đăng nhập"
+  sign_up:
+    title: "Đăng ký"
+    info: "Đăng ký người dùng mới"
