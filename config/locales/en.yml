@@ -18,6 +18,9 @@ en:
       title: "About"  
   log_in:
     title: "Log in"
+    new_user: "New user?"
+    sign_up_now: "Sign up now!"
+    error: "Invalid email/password combination!"
   sign_up:
     title: "Sign up"
     info: "Sign up a new user"
@@ -25,4 +28,11 @@ en:
     confirmation: "Confirmation"
   error: "Error"
   form_error: "The form contains "
+  profile: 
+    account: "Account"
+    users: "Users"
+    title: "Profile"
+    logout: "Log out"
+  setting:
+    title: "Settings"
 
