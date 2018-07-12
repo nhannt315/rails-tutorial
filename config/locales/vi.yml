@@ -21,6 +21,7 @@ vi:
     new_user: "Người dùng mới?"
     sign_up_now: "Đăng ký ngay bây giờ!"
     error: "Sai email hoặc mật khẩu!"
+    remember: "Tự động đăng nhập cho lần tiếp theo"
   sign_up:
     title: "Đăng ký"
     info: "Đăng ký người dùng mới"
