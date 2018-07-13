@@ -11,8 +11,9 @@ class User < ApplicationRecord
     length: {maximum: Settings.user_setting.name_maximum_length}
   validates :password, presence: true,
     length: {minimum: Settings.user_setting.password_minimum_length}
+  scope :get_activated, ->{select("name, email")}
 
-  def self.digest _string
+  def self.digest string
     cost = if ActiveModel::SecurePassword.min_cost
              BCrypt::Engine::MIN_COST
            else

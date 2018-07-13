@@ -22,6 +22,7 @@ vi:
     sign_up_now: "Đăng ký ngay bây giờ!"
     error: "Sai email hoặc mật khẩu!"
     remember: "Tự động đăng nhập cho lần tiếp theo"
+    require: "Bạn cần phải đăng nhập"
   sign_up:
     title: "Đăng ký"
     info: "Đăng ký người dùng mới"
@@ -36,3 +37,16 @@ vi:
     logout: "Đăng xuất"
   setting:
     title: "Tùy chỉnh"
+  users:
+    edit: "Chỉnh sửa thông tin"
+    delete: "Xóa"
+    delete_confirm: "Chắc chưa ?"
+    info: "Cập nhật hồ sơ của bạn"
+    save_change: "Lưu thay đổi"
+    change: "Thay đổi"
+    name: "Tên"
+    email: "Địa chỉ Email"
+    password: "Mật khẩu"
+    confirm_password: "Xác nhận lại mật khẩu"
+    profile_updated: "Hồ sơ đã được cập nhật"
+    all: "Tất cả người dùng"
