@@ -2,5 +2,9 @@ user_setting:
   name_maximum_length: 50
   email_maximum_length: 255
   password_minimum_length: 6
-  gravatar_size: 80
+  gravatar_size: 50
   password_reset_expired: 2
+micropost:
+  content_maximum: 140
+  picture_size: 2
+  picture_resize: 400

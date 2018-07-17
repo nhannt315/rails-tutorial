@@ -6,10 +6,12 @@ ruby "2.5.1"
 gem "bcrypt"
 gem "bootstrap-sass", "3.3.7"
 gem "bootstrap-will_paginate"
+gem "carrierwave"
 gem "config"
 gem "faker"
 gem "figaro"
 gem "jquery-rails"
+gem "mini_magick"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.0"
 gem "sass-rails", "~> 5.0"
@@ -33,6 +35,10 @@ group :development do
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console", ">= 3.3.0"
+end
+
+group :production do
+  gem "fog"
 end
 
 group :test do
