@@ -51,6 +51,10 @@ en:
     confirm_password: "Password confirmation"
     profile_updated: "Profile updated"
     all: "All users"
+    following: "Following"
+    follower: "Follower"
+    follow: "Follow"
+    unfollow: "Unfollow"
   activate_mail:
     title: "Account activation"
     activate: "Activate"

@@ -5,7 +5,11 @@ class StaticPagesController < ApplicationController
     @feed_items = current_user.microposts.paginate page: params[:page]
   end
 
-  def help; end
+  def help
+    puts "Startfd"
+    @test = current_user.followers[10]
+    puts "Endsf"
+  end
 
   def about; end
 
